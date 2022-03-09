@@ -1,0 +1,163 @@
+@font-face {
+	font-family: "My Font";
+	src: url('Curse of the Zombie.ttf');
+	font-weight:bold;
+}
+
+@font-face {
+	font-family: "Lolita";
+	src: url('A_Lolita_Scorned.ttf');
+	font-weight: bold;
+}
+@font-face {
+	font-family: "Captain Redemption";
+	src: url('Captain Redemption.ttf');
+	font-weight:bold;
+}
+
+a:link, a:visited {
+	color: white;
+}
+a:hover {
+	color: darkred;
+}
+#logo /* (vient de id="" quand un element est unique comme le logo par ex)*/
+{
+        position:fixed;
+        top: 21px;
+        right:500px;
+}
+
+body
+{
+        background: url("test.jpg");
+	background-size: cover;
+}
+
+
+
+.titre
+{
+        font-family: "My Font", Times Roman; /*la police*/
+        /*si le navigateur ne trouve par la 1er police elle passe à l'autre
+         * jusqu'à la derniere...*/
+	color: darkred;
+	font-size: 60px;
+}
+
+.groupe
+{
+        font-size:5px;
+
+}
+
+.section
+{
+        font-family: "My Font", Times Roman, Georgia, Verdana, Arial, serif;
+        color: white;
+        font-size: 35px;
+}
+.colonne1
+{
+	float : left;
+}
+
+.colonne2
+{
+        float : right;
+}
+
+
+.header
+{
+	position: fixed;
+	background: black;
+	height: 100px;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.partie1
+{
+	font-family:"Lolita", Times Roman, Georgia, Verdana, Arial, serif;
+	color: white;
+	font-size: 55px;
+	text-align: center;
+	text-decoration: underline;
+	position: absolute;
+	top: 98px;
+	right: 614px;
+}
+.partie2
+{
+        font-family:"Lolita", Times Roman, Georgia, Verdana, Arial, serif;
+        color: white;
+        font-size: 55px;
+        text-align: left;
+        text-decoration: underline;
+        position: absolute;
+        top: 425px;
+	right: 770px;
+}
+
+.Text {
+	color: white;
+	font-family: "Lolita", "Captain Redemption", serif;
+}
+
+.footer
+{
+	position: fixed;
+        background: black;
+        height: 260px;
+	left: 0;
+        right: 0;
+	top: 725px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+  position:relative;
+  display: inline-block;
+}
+.prenom {
+	color:white;
+	font-size:20px;
+	font-family:"My Font", serif;
+	position:absolute;
+}
+
+.citations {
+	color:white;
+	font-family: "My Font";
+	text-align: center;
+	width: 200px;
+	font-variant-position: sub;
+	position: fixed;
+	display: contents;
+}
+.content
+{
+	font-family:"Lolita",Times Roman, Georgia, Verdana, Arial, serif;
+	font-size: 26px;
+	text-align: center;
+	color: white;
+	position: absolute;
+	top: 205px;
+}
+
+.photo1 img {
+	float: left;
+	margin-top: 550px;
+}
+.photo2 img {
+        float: left;
+        margin-top: 750px;
+}
+
