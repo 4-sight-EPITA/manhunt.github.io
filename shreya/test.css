@@ -24,8 +24,10 @@ a:hover {
 #logo /* (vient de id="" quand un element est unique comme le logo par ex)*/
 {
         position:fixed;
-        top: 21px;
-        right:500px;
+	width: 101px;
+	margin: 0px 32px;
+	top:0px;
+	left:-18px;
 }
 
 body
@@ -43,6 +45,7 @@ body
          * jusqu'à la derniere...*/
 	color: darkred;
 	font-size: 60px;
+	margin: 39px 110px;
 }
 
 .groupe
@@ -113,7 +116,7 @@ body
         height: 260px;
 	left: 0;
         right: 0;
-	top: 725px;
+	top: 650px;
 }
 
 .row {
