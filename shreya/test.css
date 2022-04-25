@@ -45,7 +45,7 @@ body
          * jusqu'à la derniere...*/
 	color: darkred;
 	font-size: 60px;
-	margin: 39px 110px;
+	margin: 27px 110px;
 }
 
 .groupe
@@ -90,7 +90,7 @@ body
 	text-decoration: underline;
 	position: absolute;
 	top: 98px;
-	right: 614px;
+	right: 487px/*614px*/;
 }
 .partie2
 {
@@ -100,8 +100,8 @@ body
         text-align: left;
         text-decoration: underline;
         position: absolute;
-        top: 425px;
-	right: 770px;
+        top: 474px/*425*/;
+	right: 677px/*770px*/;
 }
 
 .Text {
