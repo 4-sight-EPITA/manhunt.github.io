@@ -157,10 +157,31 @@ body
 
 .photo1 img {
 	float: left;
-	margin-top: 550px;
+	/*margin-top: 550px; */
 }
 .photo2 img {
         float: left;
-        margin-top: 750px;
+        /*margin-top: 750px;*/
+}
+.photo3 img {
+        float: left;
+        /*margin-top: 750px;*/
+}
+.photo4 img {
+        float: left;
+        /*margin-top: 750px;*/
 }
 
+
+.columnPhoto
+{
+	margin-top: 612px;
+}
+
+.textPhoto
+{
+	font-family:"Lolita",Times Roman, Georgia, Verdana, Arial, serif;
+        font-size: 26px;
+	color: white
+
+}
